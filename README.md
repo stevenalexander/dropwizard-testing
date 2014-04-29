@@ -1,6 +1,10 @@
-# Dropwizard Security
+# Dropwizard Testing
 
-Sample application showing how to use security in your application.
+Sample application showing how to perform basic testing against a resource and validated representation class
+
+## Requires
+
+* [Gradle](http://www.gradle.org/)
 
 ## Setup
 
@@ -13,10 +17,12 @@ gradle oneJar
 To run:
 
 ```
-java -jar build/libs/dropwizard-security-standalone.jar server config.yml
+java -jar build/libs/dropwizard-testing-standalone.jar server config.yml
 ```
 
-## Details
+## Test
 
-TODO
+```
+gradle test
+```
 
