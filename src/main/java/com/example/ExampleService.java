@@ -15,7 +15,7 @@ public class ExampleService extends com.yammer.dropwizard.Service<ExampleConfigu
 
     @Override
     public void initialize(Bootstrap bootstrap) {
-        bootstrap.setName("dropwizard-security");
+        bootstrap.setName("dropwizard-testing");
     }
 
     @Override
